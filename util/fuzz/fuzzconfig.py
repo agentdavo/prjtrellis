@@ -52,6 +52,11 @@ class FuzzConfig:
         Returns the path to the output bitstream
         """
         subst = dict(substitutions)
+        # Most fuzzers hardcode the device name in their templates, but a few newer
+        # ones want to parameterize it. Provide a default so Template.substitute()
+        # does not fail when `${device}` is present.
+        if "device" not in subst:
+            subst["device"] = self.device
         if "route" not in subst:
             subst["route"] = ""
         if "sysconfig" not in subst:
