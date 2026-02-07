@@ -1,0 +1,14 @@
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/Bels.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/BitDatabase.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/Bitstream.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/CRAM.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/Chip.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/ChipConfig.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/Database.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/DedupChipdb.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/OptChipdb.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/PyTrellis.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/RoutingGraph.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/Tile.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/TileConfig.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/MinSizeRel/Util.obj

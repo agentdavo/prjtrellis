@@ -1,0 +1,14 @@
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Bels.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\Bels.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\BitDatabase.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\BitDatabase.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Bitstream.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\Bitstream.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\CRAM.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\CRAM.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Chip.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\Chip.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\ChipConfig.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\ChipConfig.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Database.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\Database.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\DedupChipdb.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\DedupChipdb.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\OptChipdb.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\OptChipdb.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\PyTrellis.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\PyTrellis.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\RoutingGraph.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\RoutingGraph.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Tile.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\Tile.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\TileConfig.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\TileConfig.obj
+C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Util.cpp;C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\pytrellis.dir\Release\Util.obj

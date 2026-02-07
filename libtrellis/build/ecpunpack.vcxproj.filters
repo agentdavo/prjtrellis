@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\tools\ecpunpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\generated\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CA2612A-11D0-35E4-82B5-98202D152EB5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

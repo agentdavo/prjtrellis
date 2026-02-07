@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Bels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\BitDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Bitstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\CRAM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Chip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\ChipConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\DedupChipdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\OptChipdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\PyTrellis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\RoutingGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\TileConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\src\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CA2612A-11D0-35E4-82B5-98202D152EB5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

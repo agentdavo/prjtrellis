@@ -1,0 +1,10 @@
+^C:\LSCC\DIAMOND\3.14\BIN\NT64\IMPL1\SOURCE\EXT\PRJTRELLIS\LIBTRELLIS\BUILD\CMAKEFILES\4282A130C030F6AA11A970F06911C996\GENERATE.STAMP.RULE
+setlocal
+C:\Users\djs\AppData\Local\miniconda3\envs\nextpnr-build\Library\bin\cmake.exe -SC:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis -BC:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/libtrellis.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

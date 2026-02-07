@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\lscc\diamond\3.14\bin\nt64\impl1\source\ext\prjtrellis\libtrellis\build\CMakeFiles\4282a130c030f6aa11a970f06911c996\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{40C6E8CC-0D2C-339F-A0D0-CB63686CF529}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

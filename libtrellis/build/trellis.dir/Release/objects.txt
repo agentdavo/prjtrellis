@@ -1,0 +1,14 @@
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/Bels.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/BitDatabase.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/Bitstream.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/CRAM.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/Chip.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/ChipConfig.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/Database.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/DedupChipdb.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/OptChipdb.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/PyTrellis.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/RoutingGraph.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/Tile.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/TileConfig.obj
+C:/lscc/diamond/3.14/bin/nt64/impl1/source/ext/prjtrellis/libtrellis/build/trellis.dir/Release/Util.obj
