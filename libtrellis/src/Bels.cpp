@@ -339,6 +339,16 @@ void add_mult18(RoutingGraph &graph, int x, int y, int z) {
     auto add_output = [&](const std::string &pin) {
         graph.add_bel_output(bel, graph.ident(pin), x, y, graph.ident(fmt("J" << pin << "_MULT18")));
     };
+    // PRADD18A integration: these ports are not part of the MULT18X18D primitive,
+    // but exist as real wires in DSP tiles (JPA/JPB/JOPPRE/JPO). Exposing them on
+    // the MULT18 BEL lets higher-level tools route preadder outputs into the
+    // multiplier input selection pips.
+    auto add_pradd18_input = [&](const std::string &pin) {
+        graph.add_bel_input(bel, graph.ident(pin), x, y, graph.ident(fmt("J" << pin << "_PRADD18")));
+    };
+    auto add_pradd18_output = [&](const std::string &pin, const std::string &wire) {
+        graph.add_bel_output(bel, graph.ident(pin), x, y, graph.ident(wire));
+    };
     for (auto sig : {"CLK", "CE", "RST"})
         for (int i = 0; i < 4; i++)
             add_input(fmt(sig << i));
@@ -348,6 +358,11 @@ void add_mult18(RoutingGraph &graph, int x, int y, int z) {
     for (auto port : {"A", "B", "C"})
         for (int i = 0; i < 18; i++)
             add_input(fmt(port << i));
+    // PRADD18A inputs
+    for (auto port : {"PA", "PB"})
+        for (int i = 0; i < 18; i++)
+            add_pradd18_input(fmt(port << i));
+    add_pradd18_input("OPPRE");
     for (auto port : {"SRIA", "SRIB"})
         for (int i = 0; i < 18; i++)
             add_input(fmt(port << i));
@@ -357,6 +372,10 @@ void add_mult18(RoutingGraph &graph, int x, int y, int z) {
     for (auto port : {"SROA", "SROB"})
         for (int i = 0; i < 18; i++)
             add_output(fmt(port << i));
+    // PRADD18A output bus (use the unsuffixed JPO* wires; tiledata aliases these
+    // to JPO*_PRADD18 and also uses JPO* as the source for the JPO->JMULTA muxes).
+    for (int i = 0; i < 18; i++)
+        add_pradd18_output(fmt("PO" << i), fmt("JPO" << i));
     for (int i = 0; i < 36; i++)
         add_output(fmt("P" << i));
     add_output("SIGNEDP");

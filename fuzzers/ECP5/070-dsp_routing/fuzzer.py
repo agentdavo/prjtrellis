@@ -52,10 +52,10 @@ def main():
         cfg.setup()
 
         def nn_filter(net, netnames):
-            return ("MULT" in net) or ("ADD" in net) or ("JMUI" in net) or ("JP" in net) \
-                   or ("DSP" in net) or ("JSRO" in net) or ("JNEXTR" in net) \
-                   or ("JCFB" in net) or ("JPSR"in net) or ("JMSR" in net) or ("JR" in net) \
-                   or ("ALU" in net) or ("JCO" in net) or ("JSOURCE" in net)
+            return ("MULT" in net) or ("MULT9" in net) or ("PRADD" in net) or ("ADD" in net) \
+                   or ("JMUI" in net) or ("JP" in net) or ("DSP" in net) or ("JSRO" in net) \
+                   or ("JNEXTR" in net) or ("JCFB" in net) or ("JPSR"in net) or ("JMSR" in net) \
+                   or ("JR" in net) or ("ALU" in net) or ("JCO" in net) or ("JSOURCE" in net)
         interconnect.fuzz_interconnect(config=cfg, location=loc,
                                        netname_predicate=nn_filter,
                                        netname_filter_union=False,

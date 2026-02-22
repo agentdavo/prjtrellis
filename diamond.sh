@@ -32,7 +32,7 @@ fi
 
 if $WINDOWS; then
 	case $diamondver in
-		"3.12")
+		"3.12"|"3.13"|"3.14")
 			diamonddir="${DIAMONDDIR:-/c/lscc/diamond/${diamondver}}"
 			;;
 		*)
@@ -41,7 +41,7 @@ if $WINDOWS; then
 	esac
 else
 	case $diamondver in
-		"3.12")
+		"3.12"|"3.13"|"3.14")
 			diamonddir="${DIAMONDDIR:-/usr/local/diamond/${diamondver}}"
 			;;
 		*)

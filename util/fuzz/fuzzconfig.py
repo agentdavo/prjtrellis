@@ -2,8 +2,21 @@
 This module provides a structure to define the fuzz environment
 """
 import os
+import sys
 from os import path
 from string import Template
+
+# Windows Python 3.8+: DLLs must be explicitly registered for import to find them.
+# Add libtrellis build directory so pytrellis.pyd can load trellis.dll.
+if sys.platform == "win32" and hasattr(os, "add_dll_directory"):
+    _trellis_root = path.abspath(path.join(path.dirname(__file__), "..", ".."))
+    for _dll_dir in [
+        path.join(_trellis_root, "libtrellis", "build", "Release"),
+        path.join(_trellis_root, "install", "lib", "trellis"),
+    ]:
+        if path.isdir(_dll_dir):
+            os.add_dll_directory(_dll_dir)
+
 import diamond
 
 
@@ -52,6 +65,19 @@ class FuzzConfig:
         Returns the path to the output bitstream
         """
         subst = dict(substitutions)
+        # Most fuzzers hardcode the device name in their templates, but a few newer
+        # ones want to parameterize it. Provide a default so Template.substitute()
+        # does not fail when `${device}` is present.
+        if "device" not in subst:
+            subst["device"] = self.device
+        if "package" not in subst:
+            # Default packages for known devices
+            dev_packages = {
+                "LFE5U-25F": "CABGA381", "LFE5U-45F": "CABGA381", "LFE5U-85F": "CABGA756",
+                "LFE5UM-25F": "CABGA381", "LFE5UM-45F": "CABGA381", "LFE5UM-85F": "CABGA756",
+                "LFE5UM5G-25F": "CABGA381", "LFE5UM5G-45F": "CABGA381", "LFE5UM5G-85F": "CABGA756",
+            }
+            subst["package"] = dev_packages.get(self.device, "CABGA381")
         if "route" not in subst:
             subst["route"] = ""
         if "sysconfig" not in subst:

@@ -1,4 +1,15 @@
 import re
+import os
+import sys
+
+# Windows Python 3.8+: register DLL directories so pytrellis.pyd can find trellis.dll
+if sys.platform == "win32" and hasattr(os, "add_dll_directory"):
+    _trellis_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    for _d in [os.path.join(_trellis_root, "libtrellis", "build", "Release"),
+               os.path.join(_trellis_root, "install", "lib", "trellis")]:
+        if os.path.isdir(_d):
+            os.add_dll_directory(_d)
+
 import pytrellis
 
 

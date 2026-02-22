@@ -4,7 +4,13 @@ __pycache__/
 
 #Environments
 /user_environment.sh
-*..DS_Store
+
+# macOS
+.DS_Store
+
+# Build artifacts
+/install/
+/libtrellis/build/
 
 #logs
 ispTcl.log
